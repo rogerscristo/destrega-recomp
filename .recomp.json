@@ -1,0 +1,15 @@
+{
+  "$schema": "https://recomp.fyi/schema/v1.json",
+  "game": "Destrega",
+  "system": "PS1",
+  "type": "recomp",
+  "original": { "region": "USA", "serial": "SLUS-00732" },
+  "project": "Destrega Recompiled",
+  "status": "playable",
+  "targets": ["macOS"],
+  "toolchain": "Custom (REA + Ghidra)",
+  "approach": "Static recompilation of MIPS R3000 to C; C11/SDL3 runtime with software GPU, GTE, SPU/XA, MDEC, CD-ROM and BIOS HLE",
+  "maintainers": [{ "name": "rogerscristo", "link": "https://github.com/rogerscristo" }],
+  "help": ["Memory card saves", "Testing on Linux and Windows"],
+  "notes": "Boots, plays the intro movies, all modes reachable, fights playable. Requires your own copy of the game."
+}
