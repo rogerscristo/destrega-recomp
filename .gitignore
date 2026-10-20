@@ -1,0 +1,11 @@
+build/
+gen/
+disc/
+Destrega/
+.DS_Store
+__pycache__/
+*.pyc
+analysis/overlays/*.err
+analysis/overlays/_run.log
+analysis/*.rea-snapshot
+*.wav
